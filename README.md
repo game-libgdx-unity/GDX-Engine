@@ -4,6 +4,53 @@ GDX Engine is a game engine based libgdx framework that can create games for and
 
 Support website: http://gdxengine.blogspot.com
 
+Updated version 1.2
+Download full sourcecode and documment
+
+I uploaded full projects from eclipse so you can import the projects directly.
+If projects miss some library like android sdk or libgdx, please get them from link i posted below.
+Contact me if you have any problem.
+
+======================================
+You can read the document online here or download the source code and documents to study offline [here]. Gdx Engine is absolutely free for download, amendment or making your games.After you extract the downloaded archive, you will have the document in pdf and folders is Asset, Testclasses and SourceCode.
+
+The document for online reading, you can see here: http://gdxengine.site50.net/document.html
+
+Install guide
+Step 1: Download the source of engine to your computer.
+Step 2: Install following software:
++ Java JDK
++ Eclipse
++ Android SDK for android, Google Web Toolkit for Web, MonoTouch for iOS (Not required entirely)
++ Download libgdx framework, extract it, You will have libgdx library, and the tool setup libgdx project: Gdx-setup-ui.
+Step 3: Create new projects using Gdx-setup-ui tool like below figure:
+
+
+
+Import projects just created into eclipse like below figure:
+
+
+
+The following dialog will be shown like below figure:
+
+
+
+The following dialog will be shown like below figure:
+
+
+
+You copy everything in SourceCode và Asset folder from downloaded archive into src và asset folder in eclipse like below figure:
+
+
+
+You select the "test..." class in back-end project to check if engine is working. Press F11 to run the Test class.
+
+
+
+Game have run properly, congratulation !
+
+
+
  About Libgdx framework
 When i need a way to Develop games in mobile platforms like Android or iOS, i have seen the libgdx framework and i quickly find acquaintance with how it works. I think it similar to XNA Framework that i have enjoyed for a long time.
 
@@ -26,3 +73,4 @@ You can also support the for GDX Engine simple by tell your friends about this e
 
 About author
 Hi everyone have visited my website. My first name is Vinh and game making is one of my hobbies beside I work in. NET Framework, Java, Wordpress, Web design and I'm working for a out-sourcing software company in my country. Before i start learing Libgdx, I have researched for the XNA Framework and [here] is some my minor project. English is not my native language so my tutorials maybe have some Gramma errors, if you spot anything wrong, please report me by writing comments. Your comments will be highly appreciated. As you see my nickname is 'Akemi-san' I named that from my favorite anime (cartoon in Japan) If you interest this, you can check the film in [link]. When you need to contact me, you can call me Vinh or 'Akemi-san', both names are fine. You 're welcome to mail me on my email, Maybe i can not reply to all emails you sent to me at once but i will read all of them.
+
