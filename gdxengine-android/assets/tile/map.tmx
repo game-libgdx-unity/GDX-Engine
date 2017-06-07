@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><map backgroundcolor="#00ff00" height="18" orientation="orthogonal" tileheight="32" tilewidth="32" version="1.0" width="30"><properties><property name="blended tiles" value="5,6,14,22,25,26,30,34,35,52,53,55,69,71"/></properties>
+ <tileset firstgid="1" name="tile" tileheight="32" tilewidth="32">
+  <image height="256" source="tile.png" trans="ffffff" width="512"/>
+  <tile id="24">
+   <properties>
+    <property name="Food" value="1"/>
+   </properties>
+  </tile>
+  <tile id="51">
+   <properties>
+    <property name="NoPass" value="1"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer height="18" name="background" width="30">
+  <data compression="zlib" encoding="base64">
+   eJy1lMENwCAMxFir3aDdhW5AZ2/elUC5i3lE94EoliG9tfZEdTiPqHORI+rdkFfUvUh33mzO+rvzZnPWn+JSeSkulbf6Lmm/lGeX989NnVf/I3Xe9UjtK8qbuq9Ujur+Vv2pnrN+q95287reXV7KO+VNvf8BVQvL+w==
+  </data>
+ </layer>
+ <layer height="18" name="obstacle" width="30">
+  <data compression="zlib" encoding="base64">
+   eJxjYBgFIGBOAGMDymiYXHtJAeh2kmsvOhAjEdMTUNOvpIY3tQB6OpIjgGGAlUr2S5GofqjbS0ugBMXUBu5IGJe9o4A4gK/cxgeIjVtXNIxu9yjADgDXHgms
+  </data>
+ </layer>
+ <layer height="18" name="foreground" width="30">
+  <data compression="zlib" encoding="base64">
+   eJxjYBgFgwmwkYhHAWWAjwAeBaNgFAxeYIqGR8HgBgCtMwGN
+  </data>
+ </layer>
+ <layer height="18" name="nopass" width="30">
+  <properties>
+   <property name="NoPass" value="1"/>
+  </properties>
+  <data compression="zlib" encoding="base64">
+   eJzFVFsOACAI6lDd/2z9tqYJhMutLxPE1xh+m8Drwq5inbjRH0T7Sy2y+JeaKnnvcd3G8HbNXcWr4DD1dfS3wmHnipkVpAfIHlU53bAV3+4/c3PzZjozfnUvmZ6xOhw7p/BGPpUbmYebxq6bGOH+uMcnN1PrBUPsI1k=
+  </data>
+ </layer>
+ <layer height="18" name="food" width="30">
+  <data compression="zlib" encoding="base64">
+   eJxjYBh+QJJIscEEBrv7RgF1wGg8Dy9AaXyOpodRMJIAAEXpAJc=
+  </data>
+ </layer>
+ <objectgroup height="18" name="object" width="30">
+  <object name="player" type="player" x="84" y="150"/>
+ </objectgroup>
+</map>

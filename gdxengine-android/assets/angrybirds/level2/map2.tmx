@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><map height="18" orientation="orthogonal" tileheight="32" tilewidth="32" version="1.0" width="30"><properties><property name="blended tiles" value="46,47,52,62,68,69,70,78,85,86,89,90,97,105,106"/></properties>
+ <tileset firstgid="1" name="tile" tileheight="32" tilewidth="32">
+  <image height="224" source="tile.png" trans="ffffff" width="512"/>
+ </tileset>
+ <layer height="18" name="background" width="30">
+  <data compression="zlib" encoding="base64">
+   eJxjYBgFo2AUjIJRMApGLtADYn0ysB6F9tpRQV8kEEeRQIOAH5n2IuvLBOIsEmgQAABA3Qz8
+  </data>
+ </layer>
+ <layer height="18" name="background2" width="30">
+  <data compression="zlib" encoding="base64">
+   eJxjYBgFo2AUjIJRMApGwVAEkVAcRQRNTZAJxVlE0DAAAOGmCGE=
+  </data>
+ </layer>
+ <layer height="18" name="background3" width="30">
+  <data compression="zlib" encoding="base64">
+   eJxjYBgFo2AUjIJRgA5MBsheFxqZqwfE+niwHpJacvzuCsRuWMTtCOhDlifH76FAHIZF3I+APkLy5AJS/EtNQC//JkIxOfoAq7EHHw==
+  </data>
+ </layer>
+ <objectgroup height="18" name="static" width="30">
+  <object x="882" y="412">
+   <polygon points="0,0 0,-29 -275,-27 -274,7"/>
+  </object>
+  <object x="632" y="469">
+   <polygon points="0,0 0,-48 -14,-47 -13,2"/>
+  </object>
+  <object x="639" y="483">
+   <polygon points="0,0 1,-23 -28,-23 -28,-1"/>
+  </object>
+  <object x="629" y="529">
+   <polygon points="0,0 0,-48 -11,-48 -9,-1"/>
+  </object>
+  <object x="923" y="574">
+   <polygon points="0,0 4,-34 -18,-63 -355,-59 -379,-28 -379,-1"/>
+  </object>
+  <object x="478" y="576">
+   <polygon points="0,0 3,-134 -21,-158 -65,-157 -63,-102"/>
+  </object>
+  <object x="451" y="507">
+   <polygon points="0,0 -2,-32 -451,-27 -453,5"/>
+  </object>
+  <object x="32" y="576">
+   <polygon points="0,0 2,-146 -18,-159 -34,-146 -33,-1"/>
+  </object>
+  <object x="960" y="573">
+   <polygon points="0,0 0,-18 -479,-12 -486,3"/>
+  </object>
+  <object x="892" y="542">
+   <polygon points="0,0 5,-207 -14,-223 -28,-206 -24,2"/>
+  </object>
+ </objectgroup>
+ <objectgroup height="18" name="horizonalwood" width="30">
+  <object height="16" width="96" x="671" y="320"/>
+  <object height="16" width="97" x="735" y="224"/>
+  <object height="17" width="79" x="769" y="319"/>
+ </objectgroup>
+ <objectgroup height="18" name="verticalwood" width="30">
+  <object height="77" width="15" x="734" y="242"/>
+  <object height="76" width="15" x="819" y="242"/>
+  <object height="45" width="17" x="672" y="338"/>
+  <object height="44" width="14" x="835" y="338"/>
+ </objectgroup>
+ <objectgroup height="18" name="blockwood" width="30">
+  <object height="44" width="45" x="748" y="339"/>
+  <object height="22" width="22" x="672" y="297"/>
+  <object height="21" width="22" x="734" y="204"/>
+  <object height="60" width="60" x="408" y="354"/>
+  <object height="23" width="23" x="606" y="360"/>
+ </objectgroup>
+ <objectgroup height="18" name="pig" width="30">
+  <object height="50" width="50" x="763" y="187">
+   <ellipse/>
+  </object>
+  <object height="43" width="43" x="766" y="289">
+   <ellipse/>
+  </object>
+  <object height="92" width="92" x="517" y="434">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup height="18" name="sling" width="30">
+  <object x="134" y="368"/>
+ </objectgroup>
+</map>

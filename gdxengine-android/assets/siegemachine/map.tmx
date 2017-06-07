@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><map height="18" orientation="orthogonal" tileheight="32" tilewidth="32" version="1.0" width="30"><properties><property name="blended tiles" value="46,47,52,62,68,69,70,78,85,86"/></properties>
+ <tileset firstgid="1" name="tile" tileheight="32" tilewidth="32">
+  <image height="224" source="tile.png" trans="ffffff" width="512"/>
+ </tileset>
+ <layer height="18" name="bg" width="30">
+  <data compression="zlib" encoding="base64">
+   eJxjYBgFo2AUjIJRMAqwAxMamOkKxG4E1LjQwN5QIA7DIq4HxPp0xiA77ajvRYIAZKffANgLshMAB24IRw==
+  </data>
+ </layer>
+ <objectgroup height="18" name="static" width="30">
+  <object x="962" y="572">
+   <polygon points="0,0 -2,-93 -963,-91 -961,3"/>
+  </object>
+  <object x="830" y="476">
+   <polygon points="0,0 4,-32 -6,-45 -28,-54 -59,-55 -60,-47"/>
+  </object>
+  <object x="828" y="469">
+   <polygon points="0,0 -45,-29 -55,-25 -58,-12 -58,5"/>
+  </object>
+  <object x="126" y="475">
+   <polygon points="0,0 0,-45 -13,-58 -31,-44 -27,4"/>
+  </object>
+ </objectgroup>
+ <objectgroup height="18" name="body" width="30">
+  <object height="44" width="128" x="213" y="424"/>
+  <object height="43" width="107" x="360" y="425"/>
+  <object height="192" name="vertical_bar" width="38" x="259" y="249"/>
+  <object height="17" name="horizonal_bar" width="173" x="192" y="256"/>
+  <object height="32" name="projectile" width="32" x="421" y="204"/>
+ </objectgroup>
+ <objectgroup height="18" name="wheel" width="30">
+  <object height="36" width="36" x="232" y="446">
+   <ellipse/>
+  </object>
+  <object height="36" width="36" x="295" y="447">
+   <ellipse/>
+  </object>
+  <object height="35" width="35" x="377" y="448">
+   <ellipse/>
+  </object>
+  <object height="35" width="35" x="426" y="447">
+   <ellipse/>
+  </object>
+ </objectgroup>
+</map>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><map backgroundcolor="#ffffff" height="18" orientation="orthogonal" tileheight="32" tilewidth="32" version="1.0" width="30"><properties><property name="blended tiles" value="69,70,85,86"/></properties>
+ <tileset firstgid="1" name="tiled" tileheight="32" tilewidth="32">
+  <image height="256" source="tiled.png" trans="ffffff" width="512"/>
+ </tileset>
+ <layer height="18" name="Tile Layer 2" width="30">
+  <data compression="zlib" encoding="base64">
+   eJxzZWBgcANiVzrToUAcNgA0vf056t9R/476d9S/o/4d9e+ofxkYACu5o3s=
+  </data>
+ </layer>
+ <layer height="18" name="background" width="30">
+  <data compression="zlib" encoding="base64">
+   eJxjYBgFo2AUjIJRMAoGHvgMEI4ZxXTBALebKUE=
+  </data>
+ </layer>
+ <objectgroup height="18" name="static" width="30">
+  <object x="959" y="573">
+   <polygon points="0,0 1,-123 -960,-124 -960,1"/>
+  </object>
+ </objectgroup>
+ <objectgroup height="18" name="brick" width="30">
+  <object height="65" width="239" x="403" y="353"/>
+  <object height="24" width="69" x="404" y="421"/>
+  <object height="25" width="64" x="577" y="420"/>
+  <object height="95" width="43" x="456" y="256"/>
+  <object height="92" width="45" x="565" y="259"/>
+  <object height="27" width="195" x="431" y="229"/>
+  <object height="30" width="78" x="0" y="108"/>
+  <object height="29" width="81" x="167" y="111"/>
+  <object height="32" width="105" x="637" y="110"/>
+  <object height="30" width="109" x="846" y="107"/>
+ </objectgroup>
+ <objectgroup height="18" name="tolem" width="30">
+  <object height="35" name="circle_center" width="35" x="511" y="146">
+   <ellipse/>
+  </object>
+  <object height="36" name="circle" width="36" x="478" y="183">
+   <ellipse/>
+  </object>
+  <object height="38" name="circle" width="37" x="549" y="182">
+   <ellipse/>
+  </object>
+  <object height="27" name="rectangle" width="103" x="504" y="167"/>
+  <object height="39" name="rotatedrec" width="41" x="471" y="150"/>
+ </objectgroup>
+</map>

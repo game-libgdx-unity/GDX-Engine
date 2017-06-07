@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><map height="18" orientation="orthogonal" tileheight="32" tilewidth="32" version="1.0" width="30"><properties><property name="blended tiles" value="35,36,67,68,83,84"/></properties>
+ <tileset firstgid="1" name="tiled" tileheight="32" tilewidth="32">
+  <image height="256" source="tiled.png" trans="ffffff" width="512"/>
+  <tile id="108">
+   <properties>
+    <property name="noplace" value="1"/>
+   </properties>
+  </tile>
+  <tile id="124">
+   <properties>
+    <property name="noplace" value="1"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer height="18" name="Tile Layer 1" width="30">
+  <data compression="zlib" encoding="base64">
+   eJxLZmBgSAHiZDrTxUBcMgA0vf051PybCsRpRNDU9m8ukZja/q0lEtPKv7jCl9b+xWUeTJ5Q/JPrX1zuIjb+iU2fMJpY/xLCxLoPHVOaz4h1HzqmtNwgNZyJLReGSzk50uoFbDQx5SI6DQAoGORs
+  </data>
+ </layer>
+ <layer height="18" name="Tile Layer 2" width="30">
+  <data compression="zlib" encoding="base64">
+   eJxjZmBgYAFiZjrTwkAsMgC0MhCrDAA9CgiDYCAOwSHnDMQuNLQb2XxkNj43jQLaAPQwxxYH6OmBEJ+WgBppBGYGOWbRwq/ExMFwAvSu/0ZqPQgAfW0XRw==
+  </data>
+ </layer>
+ <objectgroup height="18" name="path" width="30">
+  <object type="left" x="-11" y="379"/>
+  <object type="left" x="415" y="383"/>
+  <object type="down" x="416" y="192"/>
+  <object type="left" x="671" y="191"/>
+  <object type="up" x="672" y="320"/>
+  <object type="left" x="976" y="319"/>
+ </objectgroup>
+</map>

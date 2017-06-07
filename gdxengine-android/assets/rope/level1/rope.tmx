@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><map height="18" orientation="orthogonal" tileheight="32" tilewidth="32" version="1.0" width="10"><properties><property name="blended tiles" value="44,60,94,95,96"/></properties>
+ <tileset firstgid="1" name="tile" tileheight="32" tilewidth="32">
+  <image height="224" source="tile.png" trans="ffffff" width="512"/>
+ </tileset>
+ <layer height="18" name="background" width="10">
+  <data compression="zlib" encoding="base64">
+   eJxjYKAu0CFSjQ0R6mxG1Y2qg6qJg+J4IE7AgwFsDwqk
+  </data>
+ </layer>
+ <objectgroup height="18" name="static" width="10">
+  <object x="324" y="573">
+   <polygon points="0,0 -5,-510 -36,-509 -33,-2"/>
+  </object>
+  <object x="310" y="558">
+   <polygon points="0,0 -1,-14 -301,-13 -300,1"/>
+  </object>
+  <object x="30" y="549">
+   <polygon points="0,0 2,-485 -30,-484 -33,9"/>
+  </object>
+ </objectgroup>
+ <objectgroup height="18" name="candy" width="10">
+  <object x="158" y="233"/>
+ </objectgroup>
+ <objectgroup height="18" name="alien" width="10">
+  <object x="145" y="479"/>
+ </objectgroup>
+ <objectgroup height="18" name="rope" width="10">
+  <object x="151" y="83"/>
+ </objectgroup>
+</map>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><map height="13" orientation="orthogonal" tileheight="32" tilewidth="32" version="1.0" width="20"><properties><property name="blended tiles" value="33,55"/></properties>
+ <tileset firstgid="1" name="tile" tileheight="32" tilewidth="32">
+  <image height="256" source="tile.png" trans="ffffff" width="512"/>
+ </tileset>
+ <layer height="13" name="background" width="20">
+  <data compression="zlib" encoding="base64">
+   eJyLYmBgiBrFo3gUj2IgBgBxBltp
+  </data>
+ </layer>
+ <layer height="13" name="nopass" width="20">
+  <data compression="zlib" encoding="base64">
+   eJzTYmBg0KIyphagtXnk+g2Xf2llHrX9CwKKVDSP3DSASy21zSNVDTFqzalgHja95JhHTQwAxNgTYQ==
+  </data>
+ </layer>
+ <objectgroup height="13" name="static" width="20">
+  <object x="638" y="417">
+   <polygon points="0,0 4,-416 -27,-418 -29,-1"/>
+  </object>
+  <object x="639" y="29">
+   <polygon points="0,0 2,-33 -643,-28 -643,1"/>
+  </object>
+  <object x="28" y="416">
+   <polygon points="0,0 2,-416 -27,-415"/>
+  </object>
+  <object x="635" y="414">
+   <polygon points="0,0 2,-29 -636,-27 -636,1"/>
+  </object>
+  <object x="321" y="380">
+   <polygon points="0,0 -2,-156 -65,-157 -68,4"/>
+  </object>
+  <object x="306" y="282">
+   <polygon points="0,0 -2,-58 -146,-57 -146,4"/>
+  </object>
+  <object x="163" y="252">
+   <polygon points="0,0 3,-154 -70,-156 -67,1"/>
+  </object>
+  <object x="511" y="157">
+   <polygon points="0,0 0,-62 -363,-59 -364,1"/>
+  </object>
+  <object x="622" y="158">
+   <polygon points="0,0 0,-66 -82,-64 -80,3"/>
+  </object>
+  <object x="155" y="394">
+   <polygon points="0,0 2,-42 -58,-41 -57,5"/>
+  </object>
+ </objectgroup>
+ <objectgroup height="13" name="object" width="20">
+  <object name="start" type="Ball" x="581" y="46"/>
+  <object name="end" type="EndPoint" x="184" y="193"/>
+  <object name="shrinker" x="213" y="338"/>
+ </objectgroup>
+</map>
