@@ -17,8 +17,6 @@ Contact me if you have any problem.
 ======================================
 You can read the document online here or download the source code and documents to study offline [here]. Gdx Engine is absolutely free for download, amendment or making your games.After you extract the downloaded archive, you will have the document in pdf and folders is Asset, Testclasses and SourceCode.
 
-The document for online reading, you can see here: http://gdxengine.site50.net/document.html
-
 Install guide
 Step 1: Download the source of engine to your computer.
 Step 2: Install following software:
