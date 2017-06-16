@@ -5,7 +5,7 @@ GDX Engine is a game engine based libgdx framework that can create games for and
 
 Support website: http://gdxengine.blogspot.com
 
-Document online: https://github.com/game-libgdx-unity/GDX-Engine/blob/master/Gdx%20engine.pdf
+Online document: https://github.com/game-libgdx-unity/GDX-Engine/blob/master/Gdx%20engine.pdf
 
 Updated version 1.2
 Download full sourcecode and documment
